@@ -1,4 +1,0 @@
-
-        [console_scripts]
-        supervisor=src.app:main
-    

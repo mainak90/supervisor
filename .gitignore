@@ -2,8 +2,7 @@
 *
 !README.md
 !.gitignore
-!src/*.py
-!conf/*.json
-!tests/*.py
-!tests/*.json
+!/src/
+!/conf/
+!/tests/
 !setup.py

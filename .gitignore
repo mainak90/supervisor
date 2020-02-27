@@ -1,5 +1,7 @@
 ###
-*
+/venv/
+/supervisor.egg-info/
+lock
 !README.md
 !.gitignore
 !/src/

@@ -17,7 +17,9 @@ def main(args=None):
         commandlist, wait, interval = Parser(jsonpath=jsonpath).parseJson
     else:
         commandlist, wait, interval = Parser().parseJson
-    logging.info('Starting watching the supervisable commands')
+    if len(commandlist) == 0:
+        logging.error('The commandlist in supervisor.json is empty, quiting the program...')
+        sys.exit(1)
     try:
         Watcher(commandlist, wait, interval).watch()
     except Exception as e:

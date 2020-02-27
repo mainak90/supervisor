@@ -1,10 +1,5 @@
 ###
-/venv/
-/supervisor.egg-info/
+*.pyc
+venv/
+supervisor.egg-info/
 lock
-!README.md
-!.gitignore
-!/src/
-!/conf/
-!/tests/
-!setup.py

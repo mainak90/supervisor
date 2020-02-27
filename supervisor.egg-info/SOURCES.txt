@@ -1,0 +1,14 @@
+setup.py
+/Users/mdhar/PycharmProjects/supervisor/conf/supervisor.json
+conf/supervisor.json
+src/__init__.py
+src/app.py
+src/execprocess.py
+src/logger.py
+src/parser.py
+src/watcher.py
+supervisor.egg-info/PKG-INFO
+supervisor.egg-info/SOURCES.txt
+supervisor.egg-info/dependency_links.txt
+supervisor.egg-info/entry_points.txt
+supervisor.egg-info/top_level.txt

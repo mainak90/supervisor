@@ -14,14 +14,14 @@ def main(args=None):
     jsonpath = args.jsonpath
     logging.info('Starting program...')
     if jsonpath:
-        commandlist, wait, interval = Parser(jsonpath=jsonpath).parseJson
+        commandlist, wait, interval, retry = Parser(jsonpath=jsonpath).parseJson
     else:
-        commandlist, wait, interval = Parser().parseJson
+        commandlist, wait, interval, retry = Parser().parseJson
     if len(commandlist) == 0:
         logging.error('The commandlist in supervisor.json is empty, quiting the program...')
         sys.exit(1)
     try:
-        Watcher(commandlist, wait, interval).watch()
+        Watcher(commandlist, wait, interval, retry).watch()
     except Exception as e:
         logging.error('Error encountered while watching processes : ' + str(e))
 

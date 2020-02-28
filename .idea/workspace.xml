@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="813febaa-d05f-4989-a0c9-b1d8c5638e0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/supervisor.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/supervisor.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/watcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/watcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/parsertest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/parsertest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test-supervisor.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test-supervisor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/watchertest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/watchertest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +45,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in tests">
+  <component name="RunManager" selected="Python tests.Unittests in watchertest.py">
     <configuration name="Unittests in exectest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="supervisor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,9 +104,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in tests" />
         <item itemvalue="Python tests.Unittests in watchertest.py" />
         <item itemvalue="Python tests.Unittests in parsertest.py" />
+        <item itemvalue="Python tests.Unittests in tests" />
         <item itemvalue="Python tests.Unittests in exectest.py" />
       </list>
     </recent_temporary>
@@ -123,25 +129,25 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="100" y="123" width="1240" height="629" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.829@0.23.1440.829" timestamp="1582756732575" />
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1582800388997">
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1582883730699">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1582800388997" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1582883730699" />
     <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1582754682304" />
-    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1582800388996">
+    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1582883730698">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1582800388996" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1582883730698" />
     <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1582754682303" />
-    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1582800388995">
+    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1582883730698">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1582800388995" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1582883730698" />
     <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1582754682302" />
-    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1582800388996">
+    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1582883730699">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1582800388996" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1582883730699" />
     <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1582754682303" />
     <state x="374" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1582577477925">
       <screen x="0" y="23" width="1440" height="829" />

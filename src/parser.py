@@ -18,5 +18,5 @@ class Parser(object):
 
         jsonfile = open(_jsonpath).read()
         jsondata = json.loads(jsonfile)
-        return jsondata['commands'], jsondata['wait'], jsondata['interval']
+        return jsondata['commands'], jsondata['wait'], jsondata['interval'], jsondata['retry']
 
